@@ -1,0 +1,46 @@
+.incorrect{
+  border-color: red;
+  border-style: dashed;
+}
+
+.correct{
+  border-color: green;
+  border-style: dashed;
+}
+
+.code-block {
+  background-color: white;
+  border-radius: 10px;
+  padding: 3%;
+}
+
+.question-part {
+  padding-bottom: 15px;
+}
+
+.form-check {
+  padding-bottom: 20px;
+}
+
+.textarea {
+  -moz-appearance: textfield-multiline;
+  -webkit-appearance: textarea;
+  border: 1px solid gray;
+  font: medium -moz-fixed;
+  font: -webkit-small-control;
+  overflow: auto;
+  padding: 2px;
+  width:250px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.form-check-input:checked {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.form-check {
+  margin-left: 15px;
+  padding-bottom: 20px;
+}
