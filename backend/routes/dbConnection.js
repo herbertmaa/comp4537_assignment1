@@ -3,7 +3,7 @@ const router = express.Router();
 const sql = require('../db');
 
 
-router.route('/read/getQuestions').get(async (req, res) => {
+router.route('/questions').get(async (req, res) => {
 
   if(req.method !== "GET") res.send(400);
 
@@ -29,7 +29,7 @@ router.route('/read/getQuestions').get(async (req, res) => {
   res.send(response);
 });
 
-router.route('/write/postQuestion').post(async (req, response) => {
+router.route('/questions').post(async (req, response) => {
   
   if(!req.body){
     console.log(req);
@@ -96,7 +96,7 @@ router.route('/get/nextValue').get(async (req, res) => {
   res.send(response);
 });
 
-router.route('/put/updateQuestion').put(async (req, res) => {
+router.route('/questions').put(async (req, res) => {
 
   if(!req.body){
     response.status(400).send("Empty parameters provided.");

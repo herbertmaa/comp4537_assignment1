@@ -3,6 +3,7 @@ const buttonContainerTag = "buttonContainer";
 const questionContainerTag = "questionContainer";
 const backButtonText = "Back";
 
+const getQuestionsURL = "/api/questions";
 document.addEventListener("DOMContentLoaded", () => {
   loadQuestions();
   addBackButton();
@@ -22,7 +23,7 @@ const loadQuestions = () => {
       }
     }
   };
-  xhttp.open("GET", "/api/read/getQuestions", true);
+  xhttp.open("GET", getQuestionsURL, true);
   xhttp.send();
 };
 

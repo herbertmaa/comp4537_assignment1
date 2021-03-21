@@ -9,9 +9,9 @@ const saveButtonText = "Save Changes";
 const addOptionText = "Add Option";
 const backButtonText = "Back";
 
-const getQuestionsURL = "/api/read/getQuestions";
-const postQuestionURL = "/api/write/postQuestion";
-const putQuestionURL = "/api/put/updateQuestion";
+const getQuestionsURL = "/api/questions";
+const postQuestionURL = "/api/questions";
+const putQuestionURL = "/api/questions";
 
 document.addEventListener("DOMContentLoaded", () => {
   loadExistingQuestions();
