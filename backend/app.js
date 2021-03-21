@@ -9,7 +9,7 @@ const indexRouter = require('./routes/index');
 const comp4537Router = require('./routes/comp4537');
 
 app.disable('x-powered-by')
-app.use(express.static(path.join(__dirname, '../public')));
+app.use(express.static(path.join(__dirname, '../frontend')));
 app.use('/favicon.ico', express.static('images/favicon.ico'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
