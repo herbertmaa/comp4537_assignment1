@@ -256,6 +256,8 @@ const addSaveOnClick = () => {
     let questionObj = convertFormElementToQuestionJSON(questionForms[i].id);
     updateQuestion(questionObj);
   }
+
+  alert("Your changes have been saved!");
 }
 
 const addQuestionToDatabase = (question) => {
