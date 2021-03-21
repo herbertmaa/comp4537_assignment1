@@ -4,17 +4,17 @@
 
 Get all questions stored. ✌️
 ```
-GET /api/read/getQuestions
+GET /api/questions
 ```
 
 
 Add a new question to be stored in PostgreSQL 🤩
 ```
-POST /api/write/postQuestion
+POST /api/questions
 ```
 
 Update a question stored in PostgreSQL ☕️
 
 ```
-PUT /api/write/postQuestion
+PUT /api/questions
 ```
