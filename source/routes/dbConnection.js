@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const sql = require('../source/db');
+const sql = require('../db');
 
 
 router.route('/read/getQuestions').get(async (req, res) => {
